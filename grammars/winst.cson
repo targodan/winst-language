@@ -59,6 +59,21 @@
       ]
   }
 
+  #Inside a single quoted string, we want to seek for variable
+    {
+    'begin': '\''
+    'end': '\''
+    'name': 'winst.string.quoted.single'
+    'patterns': [
+        {
+          'include': '#variable'
+        }
+        {
+          'include': '#variable-root'
+        }
+        ]
+    }
+
 # Color a section when it is called
   {
   'begin': '^\\['
