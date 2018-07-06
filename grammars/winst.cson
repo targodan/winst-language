@@ -101,7 +101,7 @@
 
 'repository':
   'keyword':
-    'match': '\\b(?i:(endif|if|else|for|do|in|defvar|defstringlist|set|desktop|sendto|startmenu|startup|programs|desktopdirectory|common_startmenu|common_programs|common_startup|common_desktopdirectory|False|True|on|off|SetLogLevel|ExitOnError|ScriptErrorMessages|TraceMode|StayOnTop|requiredWinstVersion|SetUsercontext|saveVersionToProfile|includelog|include_insert|include_append|FatalOnSyntaxError|FatalOnRuntimeError|SetSkinDirectory|SetConfidential|noUpdateScript))\\b'
+    'match': '\\b(?i:(deffunc|endfunc|endif|if|else|for|do|in|defvar|defstringlist|set|desktop|sendto|startmenu|startup|programs|desktopdirectory|common_startmenu|common_programs|common_startup|common_desktopdirectory|False|True|on|off|SetLogLevel|ExitOnError|ScriptErrorMessages|TraceMode|StayOnTop|requiredWinstVersion|SetUsercontext|saveVersionToProfile|includelog|include_insert|include_append|FatalOnSyntaxError|FatalOnRuntimeError|SetSkinDirectory|SetConfidential|noUpdateScript))\\b'
     'name' : 'winst.keyword.control'
   'section':
     'match':  '\\b(?i:(sub|registry|patchtextfile|patches|patchhosts|winbatch|dosinanicon|dosbatch|shellinanicon|shellbatch|files|LinkFolder|OpsiServiceCall|Execwith|ExecPython|LdapSearch|xmlpatch)(|[a-zA-Z0-9_-]+))\\b'
